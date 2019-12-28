@@ -38,4 +38,11 @@ public class FizzBuzzTest {
         expectedException.expectMessage("invalid input");
         assertEquals(expectedResult, FizzBuzz.transform(number));
     }
+
+    @Test
+    public void testException() {
+        expectedException.expect(IllegalArgumentException.class);
+        expectedException.expectMessage("invalid input");
+        FizzBuzz.transform(0);
+    }
 }
