@@ -9,9 +9,9 @@ public class FizzBuzz {
     }
     public static String transform(int number) {
         String returnStr = "";
-        if(number < 1) {
-            throw new IllegalArgumentException("invalid input");
-        }
+//        if(number < 1) {
+//            throw new IllegalArgumentException("invalid input");
+//        }
         if(number % 3 == 0) {
             returnStr += "Fizz";
         }
