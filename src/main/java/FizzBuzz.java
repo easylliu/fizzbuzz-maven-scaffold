@@ -7,16 +7,16 @@ public class FizzBuzz {
 //            throw new IllegalArgumentException("invalid input");
 //        }
 //
-        if(number % 3 == 0) {
+        if (number % 3 == 0) {
             returnStr += "Fizz";
         }
-        if(number % 5 == 0) {
+        if (number % 5 == 0) {
             returnStr += "Buzz";
         }
-        if(number % 7 == 0) {
+        if (number % 7 == 0) {
             returnStr += "Whizz";
         }
-        if(returnStr.equals("")) {
+        if (returnStr.equals("")) {
             return format("%d", number);
         }
         return returnStr;
